@@ -34,7 +34,7 @@ export const Pricing = () => {
               { label: "Stack", value: "n8n self instance" },
             ]}
             ctaText="Start n8n"
-            ctaLink="https://panel.copod.my.id"
+            ctaLink="https://panel.klyrohost.my.id"
             delay={0.1}
           />
 
@@ -50,7 +50,7 @@ export const Pricing = () => {
               { label: "Stack", value: "WhatsApp gateway container" },
             ]}
             ctaText="Start WA Bot"
-            ctaLink="https://panel.copod.my.id"
+            ctaLink="https://panel.klyrohost.my.id"
             delay={0.2}
           />
         </div>

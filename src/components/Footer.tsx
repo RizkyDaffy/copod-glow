@@ -18,7 +18,7 @@ export const Footer = () => {
 
           {/* Description */}
           <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-            Copod saat ini berjalan di node kecil milik kami. Resource terbatas. Jika penuh,
+            KlyroHost saat ini berjalan di node kecil milik kami. Resource terbatas. Jika penuh,
             layanan baru akan ditahan (queued) sampai slot kosong.
           </p>
 
@@ -27,25 +27,25 @@ export const Footer = () => {
             <div className="flex items-center gap-2">
               <span className="text-muted-foreground">Panel & billing:</span>
               <a
-                href="https://panel.copod.my.id"
+                href="https://panel.klyrohost.my.id"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary-hover transition-colors underline underline-offset-4"
               >
-                panel.copod.my.id
+                panel.klyrohost.my.id
               </a>
             </div>
             <span className="hidden sm:inline text-muted-foreground">•</span>
             <div className="flex items-center gap-2">
               <span className="text-muted-foreground">Instance kamu:</span>
-              <span className="font-mono text-foreground">*.copod.my.id</span>
+              <span className="font-mono text-foreground">*.klyrohost.my.id</span>
             </div>
           </div>
 
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-border">
             <p className="text-xs text-muted-foreground">
-              © 2025 Copod. All rights reserved.
+              © 2025 KlyroHost. All rights reserved.
             </p>
           </div>
         </motion.div>

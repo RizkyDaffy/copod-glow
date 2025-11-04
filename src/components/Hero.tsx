@@ -70,14 +70,13 @@ export const Hero = () => {
             </span>
           </motion.h1>
 
-          {/* Subheadline */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Copod adalah mini-PaaS pribadi. Pilih dari marketplace (n8n, WhatsApp gateway,
+            KlyroHost adalah mini-PaaS pribadi. Pilih dari marketplace (n8n, WhatsApp gateway,
             dsb) atau bawa image sendiri. Kami siapkan subdomain, limit resource, dan uptime.
           </motion.p>
 
@@ -93,7 +92,7 @@ export const Hero = () => {
               className="w-full sm:w-auto bg-primary hover:bg-primary-hover text-primary-foreground shadow-glow transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
               asChild
             >
-              <a href="https://panel.copod.my.id" target="_blank" rel="noopener noreferrer">
+              <a href="https://panel.klyrohost.my.id" target="_blank" rel="noopener noreferrer">
                 Masuk Panel
               </a>
             </Button>

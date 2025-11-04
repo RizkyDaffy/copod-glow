@@ -12,10 +12,10 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-primary-hover flex items-center justify-center">
-              <div className="w-4 h-4 rounded-full bg-background" />
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary-hover flex items-center justify-center">
+              <span className="text-lg font-bold text-primary-foreground">K</span>
             </div>
-            <span className="text-lg font-bold">Copod</span>
+            <span className="text-lg font-bold">KlyroHost</span>
           </div>
           
           <Button
@@ -23,7 +23,7 @@ export const Navbar = () => {
             className="hidden sm:flex border border-border hover:bg-card-hover hover:border-primary/30 transition-all duration-200"
             asChild
           >
-            <a href="https://panel.copod.my.id" target="_blank" rel="noopener noreferrer">
+            <a href="https://panel.klyrohost.my.id" target="_blank" rel="noopener noreferrer">
               Open Panel →
             </a>
           </Button>
